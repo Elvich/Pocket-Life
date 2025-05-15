@@ -29,7 +29,7 @@ namespace SceneLoader
         public List<EScenes> ActiveScenes => _activeScenes;
 
         private Dictionary<EScenes, EScenes[]> _prefabs;
-        private List<EScenes> _nonUnloadingScenes = new() { EScenes.Data };
+        private List<EScenes> _nonUnloadingScenes = new() { };
 
         private void Awake()
         {

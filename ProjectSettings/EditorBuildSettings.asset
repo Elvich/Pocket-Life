@@ -6,14 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/PluginYourGames/Example/Scenes/ExampleYG2.unity
-    guid: e49bf7e58fdb4db4c9df51f0ddb8f327
-  - enabled: 1
-    path: Assets/PluginYourGames/Modules/Authorization/Example/Scenes/Authorization.unity
-    guid: de4e0a077d630a140a5e79e3d752d10b
-  - enabled: 1
-    path: Assets/PluginYourGames/Modules/Storage/Example/Scenes/Storage.unity
-    guid: abb058d977e9e3241a3ae83e420d91ac
+    path: Assets/Game/Scenes/Main.unity
+    guid: 9e92d29d090ec49eba8dadc0c1181369
   - enabled: 1
     path: Assets/Game/Scenes/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02

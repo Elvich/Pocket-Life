@@ -1,0 +1,11 @@
+{
+    "intExample": 0,
+    "strExample": "",
+    "boolExample": [
+        true,
+        true,
+        false,
+        false
+    ],
+    "idSave": 1
+}

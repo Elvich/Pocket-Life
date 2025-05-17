@@ -131,6 +131,7 @@ GameObject:
   - component: {fileID: 9666650}
   - component: {fileID: 9666649}
   - component: {fileID: 9666648}
+  - component: {fileID: 9666651}
   m_Layer: 0
   m_Name: Main
   m_TagString: Untagged
@@ -223,6 +224,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9666646}
   m_CullTransparentMesh: 1
+--- !u!114 &9666651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9666646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77034ecae3dd84f75afadf7f67aec1af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &181841421
 GameObject:
   m_ObjectHideFlags: 0
@@ -441,7 +454,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 588678246}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 9666651}
+        m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
+        m_MethodName: NewGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &588678246
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -802,7 +827,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 883377863}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 9666651}
+        m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
+        m_MethodName: SettingsGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &883377863
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1208,7 +1245,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1848184666}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 9666651}
+        m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
+        m_MethodName: ContinueGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1848184666
 MonoBehaviour:
   m_ObjectHideFlags: 0

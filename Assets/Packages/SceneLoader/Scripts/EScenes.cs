@@ -6,5 +6,7 @@ namespace SceneLoader
     public enum EScenes
     {
         Main = 0,
+        MainMenu = 1,
+        Game = 2,
     }
 }

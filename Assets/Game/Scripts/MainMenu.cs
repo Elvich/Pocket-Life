@@ -15,6 +15,8 @@ public class MainMenu : MonoBehaviour
 
     public void ContinueGame()
     {
+        if (YG2.saves.gameData == null) NewGame();
+        
         SceneLoader.SceneLoader.Loader.UnloadAll();
         SceneLoader.SceneLoader.Loader.Load(EScenes.Game);
     }

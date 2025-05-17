@@ -1,9 +1,11 @@
+using System;
 using SceneLoader;
 using UnityEngine;
 using YG;
 
 public class MainMenu : MonoBehaviour
 {
+
     public void NewGame()
     {
         YG2.saves.gameData = new GameData();

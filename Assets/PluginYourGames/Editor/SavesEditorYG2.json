@@ -1,7 +1,5 @@
 {
-    "gameData": {
-        "money": 20
-    },
+    "gameData": {},
     "intExample": 5,
     "strExample": "Hello!",
     "boolExample": [
@@ -10,5 +8,5 @@
         false,
         false
     ],
-    "idSave": 4
+    "idSave": 7
 }

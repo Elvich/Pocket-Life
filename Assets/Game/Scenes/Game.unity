@@ -441,7 +441,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 855333401}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 973195593}
+        m_TargetAssemblyTypeName: GamePlay, Assembly-CSharp
+        m_MethodName: ExitGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &855333401
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -491,6 +503,7 @@ GameObject:
   - component: {fileID: 973195590}
   - component: {fileID: 973195591}
   - component: {fileID: 973195592}
+  - component: {fileID: 973195593}
   m_Layer: 5
   m_Name: Content
   m_TagString: Untagged
@@ -553,6 +566,19 @@ MonoBehaviour:
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0
+--- !u!114 &973195593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 973195589}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb94ab6552a544986870863d0c019e4e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: {fileID: 1574572654}
 --- !u!1 &1135036863
 GameObject:
   m_ObjectHideFlags: 0
@@ -907,7 +933,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1463631235}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 973195593}
+        m_TargetAssemblyTypeName: GamePlay, Assembly-CSharp
+        m_MethodName: AddMoney
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1463631235
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -2,8 +2,6 @@ namespace YG
 {
     public partial class SavesYG
     {
-        // Ваши данные для сохранения
-        public int coins = 5; // Пример
         public GameData gameData;
     }
 }
@@ -12,4 +10,9 @@ namespace YG
 public struct GameData
 {
     public int money;
+}
+
+public struct Settings
+{
+    
 }

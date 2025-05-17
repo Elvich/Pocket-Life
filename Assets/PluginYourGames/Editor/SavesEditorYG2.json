@@ -1,9 +1,12 @@
 {
-    "intExample": 0,
-    "strExample": "",
+    "gameData": {
+        "money": 5
+    },
+    "intExample": 5,
+    "strExample": "Hello!",
     "boolExample": [
-        true,
-        true,
+        false,
+        false,
         false,
         false
     ],

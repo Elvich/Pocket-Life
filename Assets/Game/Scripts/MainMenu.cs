@@ -1,4 +1,3 @@
-using System;
 using SceneLoader;
 using UnityEngine;
 using YG;

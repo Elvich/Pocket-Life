@@ -14,7 +14,7 @@ public class GamePlay : MonoBehaviour, IDataSubscriber
 
     public void AddMoney()
     {
-        YG2.saves.gameData.addMoney(5);
+        //YG2.saves.gameData.addMoney(5);
     }
 
     public void ExitGame()
@@ -24,14 +24,24 @@ public class GamePlay : MonoBehaviour, IDataSubscriber
         SceneLoader.SceneLoader.Loader.UnloadAll();
         SceneLoader.SceneLoader.Loader.Load(EScenes.MainMenu);
     }
-
-    public void GetGameData(GameData data)
-    {
-        text.text = data.GetMoney().ToString();
-    }
-
+    
     private void OnDisable()
     {
-        ((IDataSubscriber)this).Unsubscribe();
+        Unsubscribe();
+    }
+
+    public void GetGameData<T>(T data)
+    {
+        if (data is FinancialData financialData) text.text = financialData.GetMoney().ToString();
+    }
+
+    public void Subscribe()
+    {
+        YG2.saves.gameData.Financial.EventCreator.Subscribe(this);
+    }
+
+    public void Unsubscribe()
+    {
+        YG2.saves.gameData.Financial.EventCreator.Unsubscribe(this);
     }
 }

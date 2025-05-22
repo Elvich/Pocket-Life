@@ -11,12 +11,12 @@ public class EventCreator
         _subscribers ??= new List<IDataSubscriber>();
     }
 
-    public void InformEveryone()
+    public void InformEveryone<T>(T data)
     {
         Initiailize();
         foreach (IDataSubscriber subscriber in _subscribers)
         {
-            subscriber.GetGameData(YG2.saves.gameData);
+            subscriber.GetGameData(data);
         }
     }
     

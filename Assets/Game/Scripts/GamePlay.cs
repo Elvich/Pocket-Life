@@ -9,12 +9,13 @@ public class GamePlay : MonoBehaviour, IDataSubscriber
     
     private void Start()
     {
-        ((IDataSubscriber)this).Subscribe();
+        Subscribe();
     }
 
     public void AddMoney()
     {
         //YG2.saves.gameData.addMoney(5);
+        YG2.saves.gameData.Financial.AddMoney(5);
     }
 
     public void ExitGame()

@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 338578b1212d64c6086b217d22aa51ba, type: 3}
+  m_Name: Classic
+  m_EditorClassIdentifier: 
+  BackgroundColor: {r: 0.8627451, g: 0.8666667, b: 0.88235295, a: 1}
+  TextColor: {r: 0.18431373, g: 0.21176471, b: 0.2509804, a: 1}
+  AccentColor: {r: 0.20425417, g: 0.69581443, b: 0.8490566, a: 1}
+  "Special\u0421Color": {r: 0.72156864, g: 0.16078432, b: 0.16078432, a: 1}
+  BackgroundImage: {fileID: 1404028623067837608, guid: 2116c55a9ea7f4e3fb71cea3ed8d5354, type: 3}

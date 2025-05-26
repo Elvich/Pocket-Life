@@ -9,10 +9,15 @@ namespace YG
 [System.Serializable]
 public class GameData
 {
-    public FinancialData Financial = new FinancialData();
+    public FinancialData Financial = new();
 }
 
-public struct Settings
+public class Settings
 {
+    private Source _source = Source.instance;
     
+    private EThemes _theme = EThemes.Clasic;
+    
+    public void ChangeTheme(EThemes theme) { _theme = theme; }
+    public Themes GetTheme() => _source.GetTheme(_theme);
 }
